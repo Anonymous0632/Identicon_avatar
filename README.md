@@ -59,19 +59,32 @@ Avatar Generator 是一个基于文本生成美学优化头像的工具。该项
 
 ## 使用步骤（AES-256图像解密程序）
 
+## 使用步骤（AES-256 图像解密程序）
+
 1. **克隆仓库**  
-   克隆本项目到本地：
+   克隆本项目到本地：  
    ```bash
-   git clone <https://github.com/Anonymous0632/Identicon_avatar.git>
-2. **运行文件**
+   git clone https://github.com/Anonymous0632/Identicon_avatar.git
+   ```
+
+2. **运行文件**  
+   进入项目文件夹并运行：  
    ```bash
    python restore_text.py
-3.**输入需要解密的图像路径**
+   ```
+
+3. **输入需要解密的图像路径**  
+   输入包含嵌入密文的图像文件路径：  
    ```bash
    "请输入包含嵌入密文的图像文件路径（例如 avatar.png）："
-4.**输入需要解密的图像密钥**
+   ```
+
+4. **输入需要解密的图像密钥**  
+   输入用于解密的加密密钥：  
    ```bash
    "请输入加密密钥："
+   ```
+
 按照提示输入即可解密图像内容。
 
 AES 版本 适用于需要可逆加密（通过密钥还原原始文本）的场景。
